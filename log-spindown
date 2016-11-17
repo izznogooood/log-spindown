@@ -1,4 +1,5 @@
 #!/bin/bash
+#/sbin/log-spindown
 # Adding date and time to logfile
 /bin/date >> /var/log/spindown.log
 # Adding drive state
