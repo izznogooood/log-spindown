@@ -1,4 +1,5 @@
 #!/bin/bash
+#/etc/cron.daily/log-spindown.daily
 # Making sure the spindown.log file does not exceed 5mb
 /usr/bin/tail -c 5MB /var/log/spindown.log > /var/log/spindown.tmp
 /bin/mv /var/log/spindown.tmp /var/log/spindown.log
