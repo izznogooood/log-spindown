@@ -1,0 +1,9 @@
+#!/bin/bash
+# Adding date and time to logfile
+/bin/date >> /var/log/spindown.log
+# Adding drive state
+/sbin/hdparm -C /dev/sdb >> /var/log/spindown.log
+/sbin/hdparm -C /dev/sdc >> /var/log/spindown.log
+# Adding separator for easier reading
+/bin/echo -------------------------------- >> /var/log/spindown.log
+
