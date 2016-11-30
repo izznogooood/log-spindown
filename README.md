@@ -6,10 +6,9 @@ Dependencies: hdparm
 
 Outputs a log file: /var/log/spindown.log
 
-
 Installation:
 
-cd /tmp
+'cd /tmp
 git clone https://github.com/izznogooood/log-spindown
 cd log-spindown
 
@@ -22,4 +21,4 @@ sudo cp log-spindown /sbin
 sudo cp log-spindown.d /etc/cron.d
 sudo cp log-spindown.daily /etc/cron.daily
 
-Wait 10min, you have your first entry in /var/log/spindown.log
+Wait 10min, you have your first entry in /var/log/spindown.log'
