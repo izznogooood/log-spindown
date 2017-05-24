@@ -15,7 +15,7 @@ git clone https://github.com/izznogooood/log-spindown
 cd log-spindown
 
 nano log-spindown
-(Edit "log-spindown" to include or exclude your HDD's, save and exit. For a permanent log: Change /tmp to /var/log in both log-spindown & log-spindown.daily. Keep in mind this wakes the drive)
+(Edit "log-spindown" to include or exclude your HDD's, save and exit. For a permanent log: Change /tmp to /var/log in both log-spindown & log-spindown.daily. Keep in mind this wakes the drive. With an SSD this is irrelevant)
 
 sudo chown root:root *
 
