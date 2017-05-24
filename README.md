@@ -16,6 +16,7 @@ cd log-spindown
 
 nano log-spindown
 (Edit "log-spindown" to include or exclude your HDD's, save and exit)
+(For a permanent log: Change /tmp to /var/log, include log-spindown.dayli)
 
 sudo chown root:root *
 
