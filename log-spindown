@@ -2,17 +2,17 @@
 #/sbin/log-spindown
 
 # Adding date and time to logfile
-/bin/date >> /var/log/spindown.log
+/bin/date >> /tmp/spindown.log
 
 # Adding drive state, add a line (remove#) for each hdd!
-/sbin/hdparm -C /dev/sda >> /var/log/spindown.log
-#/sbin/hdparm -C /dev/sdb >> /var/log/spindown.log
-#/sbin/hdparm -C /dev/sdc >> /var/log/spindown.log
-#/sbin/hdparm -C /dev/sdd >> /var/log/spindown.log
-#/sbin/hdparm -C /dev/sde >> /var/log/spindown.log
-#/sbin/hdparm -C /dev/sdf >> /var/log/spindown.log
-#/sbin/hdparm -C /dev/sdg >> /var/log/spindown.log
+/sbin/hdparm -C /dev/sda >> /tmp/spindown.log
+#/sbin/hdparm -C /dev/sdb >> /tmp/spindown.log
+#/sbin/hdparm -C /dev/sdc >> /tmp/spindown.log
+#/sbin/hdparm -C /dev/sdd >> /tmp/spindown.log
+#/sbin/hdparm -C /dev/sde >> /tmp/spindown.log
+#/sbin/hdparm -C /dev/sdf >> /tmp/spindown.log
+#/sbin/hdparm -C /dev/sdg >> /tmp/spindown.log
 
 # Adding separator for easier reading
-/bin/echo -------------------------------- >> /var/log/spindown.log
+/bin/echo -------------------------------- >> /tmp/spindown.log
 
