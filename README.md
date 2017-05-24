@@ -15,8 +15,7 @@ git clone https://github.com/izznogooood/log-spindown
 cd log-spindown
 
 nano log-spindown
-(Edit "log-spindown" to include or exclude your HDD's, save and exit)
-(For a permanent log: Change /tmp to /var/log, include log-spindown.dayli)
+(Edit "log-spindown" to include or exclude your HDD's, save and exit. For a permanent log: Change /tmp to /var/log in both log-spindown & log-spindown.daily. Keep in mind this wakes the drive)
 
 sudo chown root:root *
 
@@ -28,4 +27,4 @@ sudo cp log-spindown.d /etc/cron.d
 
 sudo cp log-spindown.daily /etc/cron.daily
 
-Wait 10min, you have your first entry in /var/log/spindown.log'
+Wait 10min, you have your first entry in /tmp/spindown.log (/var/log/spindown.log)
