@@ -18,6 +18,7 @@ Edit "log-spindown" to include or exclude your HDD's, save and exit. (Ctrl-x, y,
 
     sudo chown root:root *
     sudo chmod 755 *
+    sudo chmod 0644 log-spindown.d
     sudo cp log-spindown /sbin
     sudo cp log-spindown.d /etc/cron.d
     sudo cp log-spindown.daily /etc/cron.daily
