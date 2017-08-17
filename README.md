@@ -3,7 +3,7 @@
 Collection of scripts and cron jobs to log HDD spin-down status.
 Outputs a log file: /tmp/spindown.log (/var/log/spindown.log)
 
-**Dependencies:** hdparm
+**Dependencies:** hdparm, (a cron on arch based systems)
 
 **Installation:**
 
