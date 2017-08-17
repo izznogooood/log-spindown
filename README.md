@@ -14,7 +14,7 @@ Outputs a log file: /tmp/spindown.log (/var/log/spindown.log)
 
 Edit "log-spindown" to include or exclude your HDD's, save and exit. (Ctrl-x, y, enter)
 
-*For a permanent log: Change /tmp to /var/log in both log-spindown & log-spindown.daily. Keep in mind this wakes the system drive. If your system is on a SSD this is irrelevant)*
+*For a permanent log (/tmp disapears when you reboot): Change /tmp to /var/log in both log-spindown & log-spindown.daily. Keep in mind this wakes the system drive. If your system is on a SSD this is irrelevant)*
 
     sudo chown root:root *
     sudo chmod 755 *
